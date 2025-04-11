@@ -1,0 +1,73 @@
+.navbar{
+background-color: lightslategray;
+margin: 15px;
+text-align: center;
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+.nav-link:hover{
+    color: rgb(234, 68, 68);
+}
+.nav-link{
+    color: white;
+}
+.landing-container{
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.header{
+color: darkorange;
+font: bold 90% monospace;
+}
+.product-title{
+    padding: 5px;
+    margin: 15px;
+    font-size: 35px;
+}
+.product-subtitle{
+    font-size: 17px;
+    color: lightgray;
+}
+.hero-image{
+    max-width: 650px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.hero-text{
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.298);
+    text-shadow: 1px 2px 3px rgb(9, 6, 6);
+    color: white;
+}
+.product-description{
+    font-size: 15px;
+    color: lightgray;
+    padding: 15px;
+}
+.cta-button:hover{
+    color: rgb(233, 0, 0);
+}
+.cta-button{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+.main-footer{
+    background-color: lightslategray;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+.footer-link:hover{
+    color: red;
+}
+.footer-link{
+    color: white;
+}
