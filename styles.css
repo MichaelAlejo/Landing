@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(214, 151, 127);
-margin: 2px;
+    background-color:   rgb(214, 151, 127);
+        margin: 2px;
 }
 
 .navbar{
@@ -11,14 +11,24 @@ color: rgb(255, 255, 255);
 border-radius: 15px;
 }
 
+
 .nav-list {
     list-style: none;
-    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-item{
+    text-align: center;
+    margin: 25px;
+   
 }
 
 .nav-link:hover{
     color: rgb(234, 68, 68);
 }
+
 .nav-link{
     color: white;
 }
@@ -51,7 +61,7 @@ font: bold 90% monospace;
     max-width: 650px;
     border-radius: 15px;
     margin: 15px;
-    animation: cubic-bezier(0.55, 0.085, 0.68, 0.53)    ;
+ 
 }
 
 .hero-text{
@@ -94,8 +104,11 @@ font: bold 90% monospace;
 
 .footer-link{
     color: white;
+
 }
 
 .footer-links {
     list-style: none;
+
 }
+
